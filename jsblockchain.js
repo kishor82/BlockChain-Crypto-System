@@ -110,17 +110,13 @@ bittyCoin.createTransaction(transaction1);
 transaction2 = new Transaction("Jerry", "Tom", 30);
 bittyCoin.createTransaction(transaction2);
 
-console.log("started mining by the miner.....");
+console.log("started mining .....");
 bittyCoin.minePandingTransactions("kishor");
 
 console.log("Balance for tom is: " + bittyCoin.getBalanceOfAddress("Tom"));
 console.log("Balance for jerry is: " + bittyCoin.getBalanceOfAddress("Jerry"));
-console.log(
-  "Balance for miner kishor is: " + bittyCoin.getBalanceOfAddress("kishor")
-);
+console.log("Balance for miner is: " + bittyCoin.getBalanceOfAddress("kishor"));
 
-console.log("started mining again by the miner.....");
+console.log("started mining again .....");
 bittyCoin.minePandingTransactions("kishor");
-console.log(
-  "Balance for miner kishor is: " + bittyCoin.getBalanceOfAddress("kishor")
-);
+console.log("Balance for miner is: " + bittyCoin.getBalanceOfAddress("kishor"));
