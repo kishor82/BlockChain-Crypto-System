@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NoobChain",
+            "request": "launch",
+            "mainClass": "NoobChain",
+            "projectName": "Java_version_a10b6d8b"
+        }
+    ]
+}
